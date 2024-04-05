@@ -15,6 +15,69 @@ data = bytes([65, 66, 67])                      # bytes
 b_arr = bytearray([65, 66, 67])                 # bytearray 
 buffer = memoryview(b'Example')                 # memoryview 
 
+# Operadores 
+
+## Aritméticos 
+10 + 2      # Soma - 12 
+10 - 2      # Subtração - 8 
+10 * 2      # Multiplicação - 20 
+10 / 2      # Divisão - 5.0 
+10 // 2     # Divisão Exata - 5 
+10 % 2      # Resto da Divisão - 0  
+10 ** 2     # Potenciação - 100 
+
+# Lógicos 
+
+## AND
+True and True       # True 
+True and False      # False
+False and True      # False 
+False and False     # False 
+
+## OR
+True or True        # True 
+True or False       # True 
+False or True       # True 
+False or False      # False 
+
+## NOT 
+not True    # False 
+not False   # True 
+
+# Associação 
+a = str()
+b = list() 
+
+a in b          # A está em B 
+a not in b      # A não está em B 
+
+# Identidade 
+a = True 
+
+a is bool       # A é booleano
+a is not bool   # A não é booleano 
+
+# Relacionais 
+a = 5 
+b = 2 
+
+a == b      # Igual a - False   
+a != b      # Diferente de - True 
+a > b       # Maior que - True 
+a < b       # Menor que - False 
+a >= b      # Maior ou Igual que - True 
+a <= b      # Menor ou Igual que - False 
+
+# Atribuição 
+a = 5       # Atribuição - 2 
+a += 2      # Atribuição de Soma - 7 
+a -= 2      # Atribuição de Subtração - 3 
+a *= 2      # Atribuição de Multiplicação - 10 
+a /= 2      # Atribuição de Divisão - 2.5 
+a //= 2     # Atribuição de Divisão Exata - 2 
+a %= 2      # Atribuição de Resto da Divisão - 1 
+a **= 2     # Atribuição de Potenciação - 25 
+
 # Condicionais
 idade = 10 
 
